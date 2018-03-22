@@ -1,5 +1,5 @@
 require_relative "./vehicle.rb"
-class Car  
+class Car < Vehicle
   attr_accessor :model
 
   def initialize
